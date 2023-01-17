@@ -1,10 +1,17 @@
 import React from 'react';
+import { parseTransaction } from '../parseTransaction';
 
-const Searchbar = () => {
+const SearchBar: React.FC = () => {
+  const handleSearch = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const searchTerm = event.currentTarget.searchTerm.value;
+    parseTransaction(searchTerm);
+  };
+
   return (
-    <form className="lg:mx-64 lg:m-24">
+    <form className="lg:mx-64 lg:m-24" onSubmit={handleSearch}>
       <label
-        // for="default-search"
+        // htmlFor="default-search"
         className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
       >
         Search
@@ -20,16 +27,17 @@ const Searchbar = () => {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
             ></path>
           </svg>
         </div>
         <input
           type="search"
-          id="default-search"
+          name="searchTerm"
+          id="searchTerm"
           className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Search transactions..."
           required
@@ -45,4 +53,4 @@ const Searchbar = () => {
   );
 };
 
-export default Searchbar;
+export default SearchBar;

@@ -1,10 +1,11 @@
-import { useState } from 'react';
-import Searchbar from './components/Searchbar';
+import { useEffect, useState } from 'react';
+import SearchBar from './components/SearchBar';
+import { parseTransaction } from './parseTransaction';
 
 function App() {
   return (
     <div>
-      <Searchbar />
+      <SearchBar />
     </div>
   );
 }
