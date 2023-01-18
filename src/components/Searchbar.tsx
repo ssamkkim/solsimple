@@ -1,11 +1,15 @@
 import React from 'react';
 import { parseTransaction } from '../api/parseTransaction';
 
-const SearchBar: React.FC = () => {
+interface SearchBarProps {
+  setTransaction: (transaction: any) => void;
+}
+
+const SearchBar = ({ setTransaction }: SearchBarProps) => {
   const handleSearch = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const searchTerm = event.currentTarget.searchTerm.value;
-    parseTransaction(searchTerm);
+    let data = parseTransaction(searchTerm, setTransaction);
   };
 
   return (
