@@ -1,5 +1,5 @@
 import React from 'react';
-import { parseTransaction } from '../parseTransaction';
+import { parseTransaction } from '../api/parseTransaction';
 
 const SearchBar: React.FC = () => {
   const handleSearch = (event: React.FormEvent<HTMLFormElement>) => {
@@ -9,7 +9,7 @@ const SearchBar: React.FC = () => {
   };
 
   return (
-    <form className="lg:mx-64 lg:m-24" onSubmit={handleSearch}>
+    <form className="lg:mx-64 lg:m-24 min-w-full" onSubmit={handleSearch}>
       <label
         // htmlFor="default-search"
         className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
