@@ -1,4 +1,5 @@
 import React from 'react';
+import { parseAddressTransactions } from '../api/parseAddressTransactions';
 import { parseTransaction } from '../api/parseTransaction';
 
 interface SearchBarProps {
@@ -9,7 +10,8 @@ const SearchBar = ({ setTransaction }: SearchBarProps) => {
   const handleSearch = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const searchTerm = event.currentTarget.searchTerm.value;
-    let data = parseTransaction(searchTerm, setTransaction);
+    let data = parseAddressTransactions(searchTerm, setTransaction);
+    // let data = parseTransaction(searchTerm, setTransaction);
   };
 
   return (
