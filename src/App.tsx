@@ -6,7 +6,7 @@ import SearchBar from './components/SearchBar';
 function App() {
   const [transaction, setTransaction] = useState();
   return (
-    <div className="bg-gray-100 h-full">
+    <div className="bg-gray-100 min-h-screen h-full">
       <div className="flex flex-col items-center mx-auto sm:px-4 xl:max-w-7xl">
         <SearchBar setTransaction={setTransaction} />
         <Card transaction={transaction} />

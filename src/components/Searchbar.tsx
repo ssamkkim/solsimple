@@ -15,7 +15,10 @@ const SearchBar = ({ setTransaction }: SearchBarProps) => {
   };
 
   return (
-    <form className="lg:mx-64 lg:m-24 min-w-full" onSubmit={handleSearch}>
+    <form
+      className="lg:mx-52 lg:mt-16 lg:mb-8 min-w-full"
+      onSubmit={handleSearch}
+    >
       <label
         // htmlFor="default-search"
         className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"

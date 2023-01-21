@@ -5,8 +5,12 @@ import { getRelativeTime } from '../utils/getRelativeTime';
 const Transaction = ({ transaction }: any) => {
   console.log(transaction);
   return (
-    <div className="flex items-center bg-gray-800 text-white m-2 py-2 rounded-lg">
-      <div className="px-3 py-1">{`${transaction.description} ${getRelativeTime(
+    <div className="flex justify-between font-bold text-gray-800 py-3 border-b-2 border-gray-200">
+      <div className="flex flex-col px-3 py-2">
+        <div>{`${transaction.description}`}</div>
+        <div className="text-xs font-normal">{`${transaction.type}`}</div>
+      </div>
+      <div className="text-xs px-3 tracking-tight">{`${getRelativeTime(
         transaction.timestamp
       )}`}</div>
     </div>
