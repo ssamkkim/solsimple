@@ -1,16 +1,20 @@
 import React from 'react';
+
 import { parseAddressTransactions } from '../api/parseAddressTransactions';
 import { parseTransaction } from '../api/parseTransaction';
 
 interface SearchBarProps {
-  setTransaction: (transaction: any) => void;
+  // setTransaction?: (transaction: any) => void;
+  setSearchParam: (searchParam: string) => void;
 }
 
-const SearchBar = ({ setTransaction }: SearchBarProps) => {
+const SearchBar = ({ setSearchParam }: SearchBarProps) => {
   const handleSearch = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const searchTerm = event.currentTarget.searchTerm.value;
-    let data = parseAddressTransactions(searchTerm, setTransaction);
+    setSearchParam(searchTerm);
+    // navigate(`/address/${searchTerm}`);
+    // let data = parseAddressTransactions(searchTerm, setTransaction);
     // let data = parseTransaction(searchTerm, setTransaction);
   };
 
