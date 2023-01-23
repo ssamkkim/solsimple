@@ -5,7 +5,7 @@ import Transaction from './Transaction';
 const Card = ({ transaction }: any) => {
   return (
     <div>
-      {transaction ? <Address transaction={transaction} /> : <div></div>}
+      {/* {transaction ? <Address transaction={transaction} /> : <div></div>} */}
       {/* {transaction ? (
         <Transaction transaction={transaction} />
       ) : (

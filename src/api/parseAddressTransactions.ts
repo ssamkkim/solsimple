@@ -9,6 +9,7 @@ export const parseAddressTransactions = async (
   setIsLoading: any
 ) => {
   const url = `https://api.helius.xyz/v0/addresses/${address}/transactions?api-key=${HELIUS_API_KEY}`;
+  setIsLoading(true);
   try {
     const { data } = await axios.get(url);
     console.log('parsed transactions: ', data);
