@@ -20,7 +20,7 @@ const SearchBar = ({ setSearchParam }: SearchBarProps) => {
 
   return (
     <form
-      className="lg:mx-52 lg:mt-16 lg:mb-8 min-w-full"
+      className="lg:max-w-5xl lg:mt-16 lg:mb-8 w-full"
       onSubmit={handleSearch}
     >
       <label
@@ -52,7 +52,7 @@ const SearchBar = ({ setSearchParam }: SearchBarProps) => {
           name="searchTerm"
           id="searchTerm"
           className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="Search transactions..."
+          placeholder="Search by address..."
           required
         />
         <button

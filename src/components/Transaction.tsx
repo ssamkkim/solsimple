@@ -9,7 +9,7 @@ const Transaction = ({ transaction, address }: any) => {
   return (
     <div className="flex justify-between font-bold text-gray-800 py-3 border-b border-gray-300">
       <div className="flex items-center">
-        <div className="mr-3 text-2xl text-center">
+        <div className="mr-3 text-xl text-center">
           {getTransactionIcon(transaction.type)}
         </div>
         <div className="flex flex-col py-2 pr-3">
