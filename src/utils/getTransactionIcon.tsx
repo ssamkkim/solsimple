@@ -21,9 +21,17 @@ export const getTransactionIcon = (txType: string) => {
     case 'UNKNOWN':
       return <BiQuestionMark />;
     case 'NFT_MINT':
-      return <SiAcclaim />;
+      return (
+        <div className="text-xl">
+          <SiAcclaim />
+        </div>
+      );
     case 'TOKEN_MINT':
-      return <SiAcclaim />;
+      return (
+        <div className="text-xl">
+          <SiAcclaim />
+        </div>
+      );
     case 'NFT_SALE':
       return <BiDollar />;
     case 'NFT_LISTING':
