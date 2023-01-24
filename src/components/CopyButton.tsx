@@ -18,7 +18,7 @@ export const CopyButton = ({ copyText }: any) => {
     <CopyToClipboard text={copyText}>
       <button
         onClick={() => setCopied(true)}
-        className="appearance-none px-1 pb-4 border-none outline-none cursor-pointer"
+        className="appearance-none pr-2 px-1 pb-9 xs:pb-4 border-none outline-none cursor-pointer "
       >
         <div className="relative h-4 w-4">
           <Clippy

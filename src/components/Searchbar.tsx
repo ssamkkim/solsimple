@@ -20,7 +20,7 @@ const SearchBar = ({ setSearchParam }: SearchBarProps) => {
 
   return (
     <form
-      className="lg:max-w-5xl lg:mt-16 lg:mb-8 w-full"
+      className="mt-4 mb-2 lg:max-w-5xl lg:mt-16 lg:mb-8 w-full"
       onSubmit={handleSearch}
     >
       <label

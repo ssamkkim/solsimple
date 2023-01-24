@@ -23,7 +23,7 @@ const AddressSkeleton = () => {
               <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 w-12"></div>
             </div>
           </div>
-          <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 w-10"></div>
+          <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 w-10 mr-4 lg:mr-0"></div>
         </div>
       );
     }
@@ -33,7 +33,7 @@ const AddressSkeleton = () => {
     <div>
       <div
         role="status"
-        className="max-w-3xl w-screen divide-y animate-pulse md:py-3"
+        className="max-w-3xl w-screen divide-y animate-pulse mx-2 lg:mx-0 md:py-3"
       >
         <div className="flex items-start justify-between pb-6">
           <div className="flex">
@@ -53,7 +53,7 @@ const AddressSkeleton = () => {
               <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 w-12"></div>
             </div>
           </div>
-          <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 w-10"></div>
+          <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 w-10 mr-4 lg:mr-0"></div>
         </div>
         {iterateSkeletons()}
       </div>

@@ -16,8 +16,8 @@ function App() {
   }, [searchParam]);
 
   return (
-    <div className="bg-white min-h-screen h-full">
-      <div className="flex flex-col items-center mx-auto sm:px-4 xl:max-w-7xl">
+    <div className="bg-white min-h-screen h-full overflow-y-auto">
+      <div className="flex flex-col items-center mx-auto px-2 lg:px-12 xl:max-w-7xl">
         <SearchBar setSearchParam={setSearchParam} />
         <Outlet />
         {/* <Card transaction={transaction} /> */}
