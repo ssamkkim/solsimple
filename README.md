@@ -18,27 +18,7 @@
   </h4>
 </div>
 
-<!-- OVERVIEW -->
-
-## Overview
-
-
-### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/)
-
-## Features
-
--
--
--
-
-## How To Use
+## Installing
 
 <!-- Example: -->
 
@@ -53,20 +33,7 @@ $ npm install
 
 # Run the app
 $ npm run dev
+
+# Get an API Key from dev.helius.xyz and put it in your .env file like this
+VITE_HELIUS_API_KEY={api-key}
 ```
-
-## To Do List 
-
-## Hackathon Submission
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example: -->
-
-- [Helius](https://helius.xyz/) API used to parse transactions 
-
-## Contact
-
-- Website [http://samuel-kim-portfolio.netlify.app/](http://samuel-kim-portfolio.netlify.app/)
-- GitHub [@ssamkkim](https://github.com/ssamkkim)
-- Twitter [@scammo_](https://twitter.com/scammo_)
