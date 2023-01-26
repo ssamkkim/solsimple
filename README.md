@@ -1,13 +1,13 @@
 <div align="center">
-  <h1>Solsimple</div>
+  <h1>Solsimple</h1>
   
   <p>
     <strong>A human readable transaction viewer</strong>
   </p>
-  Solsimple</div>
+</div>
 
 <div align="center">
-  <h3>
+  <h4>
     <a href="https://solsimple.netlify.app/">
       Demo Link
     </a>
@@ -15,7 +15,7 @@
     <a href="https://twitter.com/scammo_/status/1617589403622461440?s=20&t=Mq5bvPfM78PGZ9V8O2rmBQ">
       Twitter Thread 
     </a>
-  </h3>
+  </h4>
 </div>
 
 <!-- OVERVIEW -->
