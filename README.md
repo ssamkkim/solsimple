@@ -6,7 +6,7 @@
       Demo Link
     </a>
     <span> | </span>
-    <a href="https://twitter.com/scammo_/status/1617589403622461440?s=20&t=Mq5bvPfM78PGZ9V8O2rmBQ/>
+    <a href="https://twitter.com/scammo_/status/1617589403622461440?s=20&t=Mq5bvPfM78PGZ9V8O2rmBQ">
       Twitter Thread 
     </a>
   </h3>
