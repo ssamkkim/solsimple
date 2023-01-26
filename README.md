@@ -27,7 +27,6 @@
 
 ## Overview
 
-![screenshot]
 
 ### Built With
 
@@ -61,6 +60,10 @@ $ npm install
 $ npm run dev
 ```
 
+## To Do List 
+
+## Hackathon Submission
+
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example: -->
@@ -71,4 +74,4 @@ $ npm run dev
 
 - Website [http://samuel-kim-portfolio.netlify.app/](http://samuel-kim-portfolio.netlify.app/)
 - GitHub [@ssamkkim](https://github.com/ssamkkim)
-- Twitter [@scammoXX](https://twitter.com/scammoXX)
+- Twitter [@scammo_](https://twitter.com/scammo_)
