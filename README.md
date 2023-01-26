@@ -1,4 +1,10 @@
-<h1 align="center">Solsimple</h1>
+<div align="center">
+  <h1>Solsimple</div>
+  
+  <p>
+    <strong>A human readable transaction viewer</strong>
+  </p>
+  Solsimple</div>
 
 <div align="center">
   <h3>
@@ -11,17 +17,6 @@
     </a>
   </h3>
 </div>
-
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Built With](#built-with)
-- [Features](#features)
-- [How to use](#how-to-use)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
