@@ -1,1 +1,39 @@
-# solsimple
+<div align="center">
+  <h1>Solsimple</h1>
+  
+  <p>
+    <strong>A human readable transaction viewer</strong>
+  </p>
+</div>
+
+<div align="center">
+  <h4>
+    <a href="https://solsimple.netlify.app/">
+      Demo Link
+    </a>
+    <span> | </span>
+    <a href="https://twitter.com/scammo_/status/1617589403622461440?s=20&t=Mq5bvPfM78PGZ9V8O2rmBQ">
+      Twitter Thread 
+    </a>
+  </h4>
+</div>
+
+## Installing
+
+<!-- Example: -->
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone git@github.com:ssamkkim/solsimple.git
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm run dev
+
+# Get an API Key from dev.helius.xyz and put it in your .env file like this
+VITE_HELIUS_API_KEY={api-key}
+```
