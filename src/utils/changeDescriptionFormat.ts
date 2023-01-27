@@ -1,3 +1,5 @@
+import { typeToSource } from '../api/format';
+
 export const changeDescriptionFormat = (transaction: any, address?: string) => {
   // if (transaction.type === 'SWAP') {
   return swapFormat(transaction, address);
@@ -29,6 +31,16 @@ const swapFormat = (transaction: any, address?: string) => {
     if (tmpArray[i].length >= 32 && tmpArray[i].length <= 44) {
       tmpArray[i] = `${tmpArray[i].substring(0, 4)}...${tmpArray[i].slice(-4)}`;
     }
+    if (typeToSource.has(tmpArray[i])) {
+      tmpArray[i] = typeToSource.get(tmpArray[i]);
+    }
   }
   return tmpArray.join(' ');
 };
+
+// const transferFormat = (transaction: any, address?: string) => {
+//   let tmpArray = transaction.description.split(' ');
+//   return (
+
+//   )
+// }

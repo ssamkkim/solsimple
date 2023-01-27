@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { EnrichedTransaction } from './types';
+import { Types } from 'helius-sdk';
 
 const HELIUS_API_KEY = import.meta.env.VITE_HELIUS_API_KEY;
 
@@ -15,7 +15,7 @@ export const parseAddressTransactions = async (
     console.log('parsed transactions: ', data);
     setTransaction(data);
     setIsLoading(false);
-  } catch {
-    console.error('error: ', Error);
+  } catch (err) {
+    console.error('error: ', err);
   }
 };
