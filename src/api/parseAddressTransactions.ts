@@ -17,5 +17,6 @@ export const parseAddressTransactions = async (
     setIsLoading(false);
   } catch (err) {
     console.error('error: ', err);
+    setIsLoading(false);
   }
 };
