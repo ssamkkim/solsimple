@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Types } from 'helius-sdk';
+// import { Types } from 'helius-sdk';
 
 const HELIUS_API_KEY = import.meta.env.VITE_HELIUS_API_KEY;
 
