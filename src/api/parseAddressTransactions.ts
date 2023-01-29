@@ -12,6 +12,12 @@ export const parseAddressTransactions = async (
   setIsLoading(true);
   try {
     const { data } = await axios.get(url);
+    // const { data } = await axios.post(
+    //   'http://localhost:3000/api/parse-transactions',
+    //   {
+    //     address,
+    //   }
+    // );
     console.log('parsed transactions: ', data);
     setTransaction(data);
     setIsLoading(false);
