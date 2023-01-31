@@ -5,7 +5,7 @@ const AddressErrorPage = (address: any) => {
   return (
     <div className="flex flex-col items-center">
       <div className="text-6xl font-bold tracking-wide mb-10">oops!</div>
-      <div className="text-xl mb-7">{`"${address.address}" is not a valid address`}</div>
+      <div className="text-center text-xs xs:text-sm mx-3 sm:text-xl mb-7">{`"${address.address}" is not a valid address`}</div>
       <Link to={`/`}>
         <button
           type="button"
