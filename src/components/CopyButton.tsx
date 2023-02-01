@@ -18,11 +18,11 @@ export const CopyButton = ({ copyText }: any) => {
     <CopyToClipboard text={copyText}>
       <button
         onClick={() => setCopied(true)}
-        className="appearance-none pr-2 px-1 pb-9 xs:pb-4 border-none outline-none cursor-pointer "
+        className="cursor-pointer appearance-none border-none px-1 pr-2 pb-9 outline-none xs:pb-4 "
       >
         <div className="relative h-4 w-4">
           <Clippy
-            className={`text-gray-800 stroke-current absolute top-0 left-0 stroke-dasharray-50 transition-all duration-300 ease-in-out`}
+            className={`stroke-dasharray-50 absolute top-0 left-0 stroke-current text-gray-800 transition-all duration-300 ease-in-out`}
             css={{
               strokeDasharray: 50,
               strokeDashoffset: copied ? -50 : 0,
@@ -30,7 +30,7 @@ export const CopyButton = ({ copyText }: any) => {
           />
           <Check
             isVisible={copied}
-            className={`text-green-500 stroke-current absolute top-0 left-0 transition-all duration-300 ease-in-out stroke-dasharray-50`}
+            className={`stroke-dasharray-50 absolute top-0 left-0 stroke-current text-green-500 transition-all duration-300 ease-in-out`}
             css={{
               strokeDasharray: 50,
               strokeDashoffset: copied ? 0 : -50,

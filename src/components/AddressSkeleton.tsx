@@ -7,9 +7,9 @@ const AddressSkeleton = () => {
       rows.push(
         <div className="flex items-start justify-between py-6">
           <div className="flex">
-            <div className="flex items-center justify-center h-8 bg-gray-300 rounded w-8 dark:bg-gray-700 mr-3">
+            <div className="mr-3 flex h-8 w-8 items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
               <svg
-                className="w-4 h-4 text-gray-200"
+                className="h-4 w-4 text-gray-200"
                 xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true"
                 fill="currentColor"
@@ -19,11 +19,11 @@ const AddressSkeleton = () => {
               </svg>
             </div>
             <div>
-              <div className="w-44 h-2.5 mb-2.5 bg-gray-300 rounded-full dark:bg-gray-600"></div>
-              <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 w-12"></div>
+              <div className="mb-2.5 h-2.5 w-44 rounded-full bg-gray-300 dark:bg-gray-600"></div>
+              <div className="h-2 w-12 rounded-full bg-gray-200 dark:bg-gray-700"></div>
             </div>
           </div>
-          <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 w-10 mr-4 lg:mr-0"></div>
+          <div className="mr-4 h-2 w-10 rounded-full bg-gray-300 dark:bg-gray-700 lg:mr-0"></div>
         </div>
       );
     }
@@ -33,13 +33,13 @@ const AddressSkeleton = () => {
     <div>
       <div
         role="status"
-        className="max-w-3xl w-screen divide-y animate-pulse mx-2 lg:mx-0 md:py-3"
+        className="mx-2 w-screen max-w-3xl animate-pulse divide-y md:py-3 lg:mx-0"
       >
         <div className="flex items-start justify-between pb-6">
           <div className="flex">
-            <div className="flex items-center justify-center h-8 bg-gray-300 rounded w-8 dark:bg-gray-700 mr-3">
+            <div className="mr-3 flex h-8 w-8 items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
               <svg
-                className="w-4 h-4 text-gray-200"
+                className="h-4 w-4 text-gray-200"
                 xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true"
                 fill="currentColor"
@@ -49,11 +49,11 @@ const AddressSkeleton = () => {
               </svg>
             </div>
             <div>
-              <div className="w-44 h-2.5 mb-2.5 bg-gray-300 rounded-full dark:bg-gray-600"></div>
-              <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 w-12"></div>
+              <div className="mb-2.5 h-2.5 w-44 rounded-full bg-gray-300 dark:bg-gray-600"></div>
+              <div className="h-2 w-12 rounded-full bg-gray-200 dark:bg-gray-700"></div>
             </div>
           </div>
-          <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 w-10 mr-4 lg:mr-0"></div>
+          <div className="mr-4 h-2 w-10 rounded-full bg-gray-300 dark:bg-gray-700 lg:mr-0"></div>
         </div>
         {iterateSkeletons()}
       </div>

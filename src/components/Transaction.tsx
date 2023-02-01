@@ -7,9 +7,9 @@ import { getTransactionIcon } from '../utils/getTransactionIcon';
 const Transaction = ({ transaction, address }: any) => {
   // console.log(transaction);
   return (
-    <div className="flex justify-between font-bold text-gray-800 py-3 mx-2 lg:mx-0 border-b border-gray-300">
+    <div className="mx-2 flex justify-between border-b border-gray-300 py-3 font-bold text-gray-800 lg:mx-0">
       <div className="flex items-center">
-        <div className="mr-3 text-xl text-center">
+        <div className="mr-3 text-center text-xl">
           {getTransactionIcon(transaction.type)}
         </div>
         <div className="flex flex-col py-2 pr-3">
@@ -17,7 +17,7 @@ const Transaction = ({ transaction, address }: any) => {
           <div className="text-xs font-normal">{`${transaction.type}`}</div>
         </div>
       </div>
-      <div className="text-xs tracking-tight text-right ml-4 pt-2 sm:pt-0">{`${getRelativeTime(
+      <div className="ml-4 pt-2 text-right text-xs tracking-tight sm:pt-0">{`${getRelativeTime(
         transaction.timestamp
       )}`}</div>
     </div>

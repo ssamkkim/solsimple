@@ -2,23 +2,23 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900">
-      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <footer className="bg-white p-4 dark:bg-gray-900 sm:p-6">
+      <hr className="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <span className="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
           © 2023{' '}
           <a href="https://solsimple.netlify.app/" className="hover:underline">
             Solsimple
           </a>
         </span>
-        <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+        <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
           <a
             href="https://twitter.com/scammo_/status/1617589403622461440?s=20&t=MJ-lxeZuFH0-mHj7GYxOgg#"
             target="_blank"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
-              className="w-5 h-5"
+              className="h-5 w-5"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -33,7 +33,7 @@ const Footer = () => {
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
-              className="w-5 h-5"
+              className="h-5 w-5"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"

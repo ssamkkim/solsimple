@@ -18,16 +18,16 @@ const Address = () => {
   }, [address]);
 
   return (
-    <div className="max-w-3xl w-screen">
+    <div className="w-screen max-w-3xl">
       {isLoading ? (
         <AddressHeaderSkeleton />
       ) : (
         <div>
-          <div className="text-3xl ml-2 lg:mx-0 sm:text-4xl font-bold tracking-wider mt-1 mb-2">
+          <div className="ml-2 mt-1 mb-2 text-3xl font-bold tracking-wider sm:text-4xl lg:mx-0">
             {transaction ? 'Account' : null}
           </div>
           <div className="flex">
-            <div className="text-sm break-words w-11/12 xs:w-auto ml-2 lg:mx-0 sm:text-sm mb-4">
+            <div className="ml-2 mb-4 w-11/12 break-words text-sm xs:w-auto sm:text-sm lg:mx-0">
               {transaction ? address : null}
             </div>
             {transaction ? <CopyButton copyText={address} /> : null}
