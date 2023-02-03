@@ -1,3 +1,4 @@
+import { EnrichedTransaction } from 'helius-sdk';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -14,7 +15,9 @@ const Address = () => {
   const { address } = useParams();
 
   useEffect(() => {
-    parseAddressTransactions(address, setTransaction, setIsLoading);
+    if (typeof address === 'string') {
+      parseAddressTransactions(address, setTransaction, setIsLoading);
+    }
   }, [address]);
 
   return (

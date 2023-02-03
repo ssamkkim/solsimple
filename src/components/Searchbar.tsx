@@ -4,7 +4,6 @@ import { parseAddressTransactions } from '../api/parseAddressTransactions';
 import { parseTransaction } from '../api/parseTransaction';
 
 interface SearchBarProps {
-  // setTransaction?: (transaction: any) => void;
   setSearchParam: (searchParam: string) => void;
 }
 
