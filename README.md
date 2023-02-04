@@ -18,6 +18,19 @@
   </h4>
 </div>
 
+### Tech Stack
+
+- [Node](https://nodejs.org/en/)
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [Flowbites](https://flowbite.com/#components)
+
+### APIs
+
+- [Helius](https://helius.xyz/)
+
 ## Installing
 
 <!-- Example: -->
