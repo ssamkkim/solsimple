@@ -1,10 +1,16 @@
+import { EnrichedTransaction } from 'helius-sdk';
 import React from 'react';
 import { changeDescriptionFormat } from '../utils/changeDescriptionFormat';
 
 import { getRelativeTime } from '../utils/getRelativeTime';
 import { getTransactionIcon } from '../utils/getTransactionIcon';
 
-const Transaction = ({ transaction, address }: any) => {
+interface TransactionParams {
+  transaction: EnrichedTransaction;
+  address?: string;
+}
+
+const Transaction = ({ transaction, address }: TransactionParams) => {
   // console.log(transaction);
   return (
     <div className="mx-2 flex justify-between border-b border-gray-300 py-3 font-bold text-gray-800 lg:mx-0">

@@ -8,72 +8,72 @@ const TweetThread = () => {
           className="hidden duration-700 ease-in-out"
           data-carousel-item="active"
         >
-          <div className="block-w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          {/* <div className="block-w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <Tweet tweetId="1617589403622461440" />
-          </div>
-          {/* <img
+          </div> */}
+          <img
             src="/docs/images/carousel/carousel-1.svg"
             className="absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
-          /> */}
+          />
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          {/* <img
+          <img
             src="/docs/images/carousel/carousel-2.svg"
             className="absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
-          /> */}
-          <div className="block-w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          />
+          {/* <div className="block-w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <Tweet tweetId="1617589405623128066" />
-          </div>
+          </div> */}
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          {/* <img
+          <img
             src="/docs/images/carousel/carousel-3.svg"
             className="absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
-          /> */}
-          <Tweet tweetId="1617589407917441025" />
+          />
+          {/* <Tweet tweetId="1617589407917441025" /> */}
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          {/* <img
+          <img
             src="/docs/images/carousel/carousel-4.svg"
             className="absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
-          /> */}
-          <Tweet tweetId="1617589413068038144" />
+          />
+          {/* <Tweet tweetId="1617589413068038144" /> */}
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          {/* <img
+          <img
             src="/docs/images/carousel/carousel-5.svg"
             className="absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
-          /> */}
-          <Tweet tweetId="1617589414485712897" />
+          />
+          {/* <Tweet tweetId="1617589414485712897" /> */}
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          {/* <img
+          <img
             src="/docs/images/carousel/carousel-5.svg"
             className="absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
-          /> */}
-          <Tweet tweetId="1617589416234733569" />
+          />
+          {/* <Tweet tweetId="1617589416234733569" /> */}
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          {/* <img
+          <img
             src="/docs/images/carousel/carousel-5.svg"
             className="absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
-          /> */}
-          <Tweet tweetId="1617589417669189632" />
+          />
+          {/* <Tweet tweetId="1617589417669189632" /> */}
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          {/* <img
+          <img
             src="/docs/images/carousel/carousel-5.svg"
             className="absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
-          /> */}
-          <Tweet tweetId="https://twitter.com/scammo_/status/1617589419078479872?s=20&t=5Gn6SKRJ8BUQwQh3Vbey9w" />
+          />
+          {/* <Tweet tweetId="https://twitter.com/scammo_/status/1617589419078479872?s=20&t=5Gn6SKRJ8BUQwQh3Vbey9w" /> */}
         </div>
       </div>
       <div className="absolute bottom-5 left-1/2 z-30 flex -translate-x-1/2 space-x-3">

@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import SearchBar from './components/SearchBar';
 
 function App() {
-  const [transaction, setTransaction] = useState();
+  // const [transaction, setTransaction] = useState();
   const [searchParam, setSearchParam] = useState('');
   const navigate = useNavigate();
   useEffect(() => {

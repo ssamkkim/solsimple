@@ -10,7 +10,10 @@ import { CopyButton } from './CopyButton';
 import Transaction from './Transaction';
 
 const Address = () => {
-  const [transaction, setTransaction]: any[] = useState();
+  const [transaction, setTransaction] = useState() as [
+    EnrichedTransaction[],
+    React.Dispatch<React.SetStateAction<EnrichedTransaction[]>>
+  ];
   const [isLoading, setIsLoading] = useState(true);
   const { address } = useParams();
 
@@ -40,7 +43,7 @@ const Address = () => {
       {isLoading ? (
         <AddressSkeleton />
       ) : transaction ? (
-        transaction.map((tx: any) => (
+        transaction.map((tx: EnrichedTransaction) => (
           <Transaction transaction={tx} address={address} />
         ))
       ) : (
