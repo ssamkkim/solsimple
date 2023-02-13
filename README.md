@@ -1,22 +1,11 @@
-<div align="center">
-  <h1>Solsimple</h1>
-  
-  <p>
-    <strong>A human readable transaction viewer</strong>
-  </p>
-</div>
+# Solsimple
+A human readable transaction viewer
 
-<div align="center">
-  <h4>
-    <a href="https://solsimple.netlify.app/">
-      Demo Link
-    </a>
-    <span> | </span>
-    <a href="https://twitter.com/scammo_/status/1617589403622461440?s=20&t=Mq5bvPfM78PGZ9V8O2rmBQ">
-      Twitter Thread 
-    </a>
-  </h4>
-</div>
+## Links
+| Name | Description | Link | 
+|-|-|-|
+Production | The main deployment attached to the domain. | https://solsimple.netlify.app/ |
+Twitter Thread | My twitter thread submission for the Sandstorm hackathon | https://twitter.com/scammo_/status/1617589403622461440?s=20&t=Mq5bvPfM78PGZ9V8O2rmBQ |
 
 ### Tech Stack
 
