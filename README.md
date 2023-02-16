@@ -1,7 +1,11 @@
-# Solsimple
-A human readable transaction viewer
+<div align="center">
+  <h1>Solsimple</h1>
 
-## Links
+  <p>
+    <strong>A human readable transaction viewer</strong>
+  </p>
+</div>
+
 | Name | Description | Link | 
 |-|-|-|
 Production | The main deployment attached to the domain. | https://solsimple.netlify.app/ |
