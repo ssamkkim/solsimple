@@ -8,7 +8,7 @@
 
 | Name | Description | Link | 
 |-|-|-|
-Production | The main deployment attached to the domain. | https://solsimple.netlify.app/ |
+Production | The link to test it out. | https://solsimple.netlify.app/ |
 Twitter Thread | My twitter thread submission for the Sandstorm hackathon | https://twitter.com/scammo_/status/1617589403622461440?s=20&t=Mq5bvPfM78PGZ9V8O2rmBQ |
 
 ### Tech Stack
